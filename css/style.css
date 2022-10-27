@@ -49,7 +49,9 @@ letter-spacing: 0.02em;
 .contacts:hover, .contacts:focus {
   color:var(--logo-link);
 }
-
+.main-section{
+  background: #2F303A;;
+}
 .main-title {
 font-weight: 900;
 font-size: 44px;
