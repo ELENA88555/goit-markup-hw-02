@@ -126,8 +126,10 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
-border: radius 4px;;
 background: #F5F4FA;
+cursor: pointer;
+border-radius: 4px;
+border: none;
 }
 .btn-portfolio:hover, .btn-portfolio:focus {
   color: var(--white-color);
@@ -150,13 +152,15 @@ color: var(--text-color);
 list-style: none;
 }
 .address {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white-color);
   text-decoration: none;
+  }
+  address {
+    font-style: normal;
   }
   .contact-address {
     font-weight: 400;
